@@ -1,0 +1,32 @@
+// 変数
+$pc_min: 1025px;
+$tab_max: 1024px;
+$tab_min: 768px;
+$sp_max: 767px;
+
+// mixin
+@mixin width_size {
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 970px;
+}
+@mixin sp {
+  @media screen and (max-width: ($sp_max)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media screen and (min-width: ($tab_min)) {
+    @content;
+  }
+}
+@mixin tab_only {
+  @media screen and (min-width: ($tab_min) and (max-width: $tab_max)) {
+    @content;
+  }
+}
+@mixin pc {
+  @media screen and (min-width: ($pc_min)) {
+    @content;
+  }
+}

@@ -1,0 +1,19 @@
+@import "setting";
+// common
+html,
+body {
+  background-color: rgba(184, 213, 225, 0.03);
+}
+// header
+
+// footer
+footer {
+  color: #fff;
+  background-color: #555273;
+  div:last-of-type {
+    text-align: center;
+    small {
+      font-size: 10px;
+    }
+  }
+}

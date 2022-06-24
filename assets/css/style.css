@@ -1,0 +1,18 @@
+html,
+body {
+  background-color: rgba(184, 213, 225, 0.03);
+}
+
+footer {
+  color: #fff;
+  background-color: #555273;
+}
+
+footer div:last-of-type {
+  text-align: center;
+}
+
+footer div:last-of-type small {
+  font-size: 10px;
+}
+/*# sourceMappingURL=style.css.map */
